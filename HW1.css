@@ -1,1 +1,75 @@
+body {
+    background-image: url(https://imgur.com/J773z17.png);
+    background-size : 100% auto;
+}
+#main{
+    color: white;
+    position:absolute;
+    top: 200px;
+    left: 100px;
+}
+#main  a
+{
+    color:white;
+}
+.EE h3 {
+    padding-left:10px;
+    margin-top: 30px;
+}
+.EE a {
+    color:white;
+}
 
+.EE b {
+    color:white;
+}
+
+#btn {
+    background: url(https://imgur.com/qQ3W5gJ.png);
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    position: relative;
+    float: right;
+    top: -45px;
+    right: 30px;
+}
+#btn a {
+    color: aliceblue;
+}
+#btn a:hover{
+    background-color: blue;
+}
+#access{
+    background: url(https://imgur.com/7uxnh1v.png);
+    width: 150px;
+    height: 35px;
+	text-align: center;
+    position: relative;
+    top: 380px;
+    left: 80px;
+}
+#access a {
+    color: aliceblue;
+}
+#access a:hover{
+    background-color: blue;
+}
+.link {
+    position: relative;
+    top:575px;
+    left: 1350px;
+}
+.link  a {
+    color: white;
+}
+.link a:hover {
+    color: lightpink;
+}
+.link a:active{
+    color: aquamarine;
+}
+.link p {
+    color: white;
+    display:inline;
+}
