@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="HW2.css">
+  <script src="/jquery/jquery-1.11.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+  <title>homework</title>
+</head>
+<body>
+<img id="white"      src="https://imgur.com/OW6YySh.png">
+<img id="background" src="https://imgur.com/Tpr1W8R.png">
+<img id="triangle"   src="https://imgur.com/1LfOjEP.png">
+<img id="train"      src="https://imgur.com/cT49KfI.png">
+<img id="button"     src="https://imgur.com/yOXB02a.png">
+
+<script>
+$(document).ready(function()
+{
+  $("#button").click(function()
+  {
+  $("#train").animate({left:'40%'},1500);
+  }); 
+  $("#button").mouseenter(function()
+  {
+    $("#button").attr("src","https://imgur.com/ZuHOyAG.png");
+  });
+  $("#button").mouseleave(function()
+  {
+    $("#button").attr("src","https://imgur.com/yOXB02a.png");
+  });
+});
+</script>
+
+</body>
+</html>
