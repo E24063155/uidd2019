@@ -1,28 +1,30 @@
+
 <!DOCTYPE html>
-<head>
-    <title>ajax</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="index.js"></script>
-	<script type="text/javascript"></script>
-</head>
-<body>
-    <button type="button" id="list_all" onclick="list_all()"> list all students </button>
-    <p id="list_all"></p>
-    <br>
-    <form id="search">
-        <p style=font-size:22px;>student ID: <input type="text" id="search-in"></p>
-        <button type="submit" id="search"> search specific student </button>
+<html>
+  <head>
+    <title>HTTP & Ajax</title>
+  </head>
+  <body>
+
+      <button id= "list">list all students</button>
+      <br><br><br>
+      <div id = "ajax-output"></div>
+    <form id="search_form">
+      Student ID: <input type="text" id="search_ID"><br>
+      <button type="submit">search specific student</button>
     </form>
-    <p id="search"></p>
-    <br><br>
-    <form id="add">
-        <p style=font-size:22px;>student ID: <input type="text" id="IDadd">
-        <p style=font-size:22px;>student name: <input type="text" id="Nameadd"><br>
-        <button type="submit" id="add"> add new student </button>
-    </form><br><br>
-    <p id="add"></p>
-    <form id="delete">
-	    <p style=font-size:22px;>student ID: <input type="text" name="ID" id="delete_input"><br>
-        <button type="submit" id="delete"> delete specific student </button>
-	</form>
-</body> 
+      <br><br><br>
+    <form id="add_form">
+      Student ID: <input type="text" id="add_ID"><br>
+      Student Name: <input type="text" id="add_name"><br>
+      <button type="submit">add new student</button>
+    </form>
+      <br><br><br>
+    <form id="delete_form">
+      Student ID: <input type="text" id="delete_ID"><br>
+      <button type="submit">delete specific student</button>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
